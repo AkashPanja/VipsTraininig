@@ -1,0 +1,15 @@
+Proxy setting error:
+
+Do this steps to remove error.
+
+Step-1: Click File > Settings
+
+Step-2: Click Appearance & Behavior -> 
+	      System Settings -> 
+	      HTTP Proxy. 
+
+Step-3: The HTTP Proxy page appears.
+
+Step-4: Select No Proxy
+
+Click Apply or OK for your changes to take effect.
