@@ -1,0 +1,6 @@
+For Activating Virtualization:
+
+
+Step-1: GoTo BIOS setting
+Step-2: GoTo Advance Tab
+Step-3: Enable Virtualization and save changes.
