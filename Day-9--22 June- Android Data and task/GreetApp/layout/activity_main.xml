@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.greetapp.MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nameTextView"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/salaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salary"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/nameTextView"/>
+
+    <EditText
+        android:id="@+id/salaryEditText"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:layout_below="@+id/nameEditText"/>
+
+    <Button
+        android:layout_marginLeft="80dp"
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salaryTextView"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_toEndOf="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salaryTextView"
+        android:text="Cancel"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/resultTextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:prompt="@string/promptTitle"
+        android:spinnerMode="dialog"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="25dp"
+        android:entries="@array/month"/>
+
+    <!--    <EditText
+        android:background="@color/colorPrimary"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:inputType="textPassword"
+        android:text="21234343"/>-->
+
+
+</RelativeLayout>

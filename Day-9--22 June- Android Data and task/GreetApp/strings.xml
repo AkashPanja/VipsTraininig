@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Greet App</string>
+    <string name="promptTitle">Month</string>
+    <string-array name="month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>Apr</item>
+    </string-array>
+</resources>
