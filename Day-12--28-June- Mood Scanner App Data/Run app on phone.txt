@@ -1,0 +1,3 @@
+Run app on Mobile via USB
+
+https://developer.android.com/studio/run/oem-usb.html
